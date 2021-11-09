@@ -5,7 +5,7 @@
 O objetivo deste exercício é replicar o website encontrado no arquivo 'Desafio front academy 1.fig'.
 
 ## Páginas obrigatórias
- - [Home](#Home)
+ - [Home](#Home) 
 
 ## Páginas opcionais
  - [Portfolio](#Portfolio)
