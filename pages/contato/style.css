@@ -1,0 +1,94 @@
+/* PAGE HIGHLIGHT */
+.nav__ul .li__a--color {
+    color: #5FB4A2;
+}
+
+/* FORMATAÇÃO LARGURA E DISPLAY */
+.section {
+    width: 80vw;
+    display: flex;
+    padding: 48px 0;
+}
+
+.first .p {
+    margin-bottom: 54px;
+}
+
+.section .h2 {
+    min-width: 40vw;
+}
+
+.first {
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);    
+    margin-top: 94px;
+    margin-bottom: 47px;    
+}
+
+.second {
+    margin-bottom: 109px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs__label {
+    font-family: 'Public Sans',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+
+    color:rgba(51, 50, 61,0.8);
+
+    mix-blend-mode: normal;
+}
+
+
+.inputs__email, .inputs__name {
+    all: unset;
+    background-color: rgba(51, 50, 61,0.1);
+    height: 38px;
+    width: 39vw;
+    padding:10px 10px;
+    margin-bottom: 24px;
+}
+
+.inputs__msg {
+    all: unset;
+    margin-bottom: 24px;
+    background-color: rgba(51, 50, 61,0.1);
+    height: 86px;
+    width: 39vw;
+    padding:10px 10px;
+    
+}
+
+.inputs__email:focus, .inputs__msg:focus, .inputs__name:focus {
+    border: 3px solid black;
+}
+
+.input__button {
+    all: unset;
+    color: #FFF;
+    padding: 17px 54px;
+    background-color: #203A4C;
+    width: 100px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+.input__button:hover {
+    background-color:#5FB4A2;
+}

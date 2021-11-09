@@ -1,0 +1,73 @@
+/* DESTAQUE DE ITEM NAV */
+.li .li__a--color {
+    color:#5FB4A2;
+}
+
+/* PADDING BOTÃO SECUNDÁRIO */
+
+.description__button {
+    padding: 17px 38px;
+}
+
+/* CONTAINER PRINCIPAL */
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 70vw;
+}
+
+/* CONTAINER SECUNDÁRIO */
+.section {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.section .description {
+    max-width: 20vw  ;
+    padding: 103px 0;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+/* IMAGENS */
+.section .portfolio__img {
+    max-width: 35vw;
+    max-height: 500px;
+}
+
+/* MARGENS */
+.section .left {
+    margin-right: 15vw;
+} 
+
+.section .right {
+    margin-left: 15vw;
+} 
+
+
+.description .h2 {
+    text-transform:capitalize;
+    margin-bottom: 28px;
+}
+
+.manage .p {
+    margin-bottom: 54px; 
+}
+.bookmark .p {
+    margin-bottom: 54px; 
+}
+
+.fylo .p {
+    margin-bottom: 24px; 
+}
+
+.insure .p {
+    margin-bottom: 24px; 
+}
+
+.contact {
+    width: 70vw;
+    margin: 70px 212px;
+    margin-bottom: 80px;
+}

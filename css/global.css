@@ -1,0 +1,167 @@
+/* FORMATAÇÃO GERAL */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;   
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* FORMATAÇÃO TIPOGRAFIA */
+
+
+.sublinhado {
+    all: unset;
+    text-decoration: underline;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    cursor: pointer;
+    ;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.p {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    }
+
+.h2 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+
+
+.char-style-white {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+
+
+/* HEADER GLOBAL */
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    padding: 64px 0 53px 0;
+}    
+
+.ul {
+    display: flex;
+}    
+
+.ul .ul__li {
+    list-style-type: none;
+    margin-left: 43px;  
+}       
+
+.li .li__a {
+    text-decoration: none;
+    color: #33323D;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}    
+
+.li .li__a:hover {
+    color:#5FB4A2;
+}    
+
+
+/* CONTACT GLOBAL */
+
+body .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact .contact__h2 {
+    max-width: 367px;
+}
+
+.contact .a {
+    width: 150px;
+    text-align: center;
+}
+
+
+/* FOOTER GLOBAL */
+
+
+
+.footer {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    background-color: #33323D;
+    padding: 28px 165px;
+    align-items: center;
+}
+
+.footer__ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.footer-ul__li {
+    margin-left: 42px;
+}
+
+.footer-ul__li a:hover {
+    text-decoration:underline;  
+}
+
+.icons a {
+    margin-left: 15px;
+}
+
+
+

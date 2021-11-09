@@ -1,0 +1,65 @@
+.h1--active {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    /* or 100% */
+    
+    letter-spacing: -0.446429px;
+    
+    color: #33323D;
+}
+
+.h2--active {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    /* identical to box height, or 105% */
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+
+}
+
+.h3 {
+    font-family: 'Ibarra Real Nova', serif;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.285714px;
+    color: #33323D;
+}
+
+.p--active {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 187% */
+
+
+    color: #33323D;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.span--active {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+
+}

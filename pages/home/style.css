@@ -1,0 +1,104 @@
+/* ACTUAL PAGE HIGHLIGHT */
+
+
+
+.li .li__a--color{
+    color: #5FB4A2;
+}
+
+
+
+/* HERO SECTION */
+
+
+
+
+.hero {
+    display: flex;
+    
+    width: 80vw;
+    min-height: 600px;
+    margin: 0 165px 150px 165px;
+
+    background-size: cover;
+    background-image: url(../../assets/home/image-homepage-hero.jpg);
+    
+}
+
+.hero .hero-div  {
+    width: 445px;
+    height: 357px;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #FFF;
+}
+
+.hero-div .hero-div__h1 {
+    padding: 56px 28px 53px 27px;
+}
+
+.hero-div .hero-div__button {
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
+}
+.hero-div__button svg {
+    align-self: center;
+    margin-left: 16px; ;
+}
+
+.button-primary__span {
+    padding: 17px 35px;
+}
+
+
+
+/* ABOUT SECTION */
+
+
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    height: 80vh;
+}
+
+.about-right {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30vw;
+    height: 80vh;
+    margin-left: 10vw;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);    
+}
+
+.about__img {
+    max-width: 45vw;
+    max-height: 80vh;
+}
+
+.about-right__h2 {
+    margin-bottom: 15px;
+}
+
+.about-right__p {
+    margin-bottom: 20px;
+}
+
+.about .about-right__button {
+    cursor: pointer;
+    
+    align-self: center;
+}
+
+/* MARGEM DO CONTACT  */
+
+.contact {
+    margin: 150px 165px 150px 165px;
+    width:80vw;
+}
